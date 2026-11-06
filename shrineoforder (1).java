@@ -76,14 +76,14 @@ public class shrineoforder {
                 }
                  if(wep == 0){
                     checker--;
-                 } // FIXED: Closed the if statement brace right here
+                 } 
 
                 this.checking = checker;
                 int total = str + fort + agil + will + intel + isma + element + wep; // FIXED: Added missing 'int' type
                 if (checker > 0) {
                     total /= checker;
                 }
-                total1 = total; // FIXED: Swapped the assignment direction to save your math
+                total1 = total;
                 checking = checker;
 }
             public void shrine(){
